@@ -1,7 +1,7 @@
 'use strict';
 
 const burgerIcon = document.querySelector('.header__settings-burger');
-const crossIcon = document.querySelector('.header__settings-crossMenu');
+// const crossIcon = document.querySelector('.header__settings-crossMenu');
 const phoneIcon = document.querySelector('.header__settings-phone');
 const navLinks = document.querySelectorAll('.nav__link');
 
@@ -21,10 +21,10 @@ navLinks.forEach((link) => {
   };
 });
 
+// eslint-disable-next-line no-undef
 navLink.onclick = () => {
   menu.style.display = 'none';
   html.classList.remove('no-scroll');
-  console.log('что-нибудь!!!!');
 };
 
 phoneIcon.onmouseover = () => {
